@@ -1,0 +1,6 @@
+文件位置：device/intel/baytrail/byt_m_crb
+
+ro.sf.lcd_density来设置系统的像素density，默认是160。1dp=(160 / density) *px ，
+屏幕最小宽度超过600dp时，自动使用平板布局。 而我们系统中默认的density为213
+
+所以要达到600dp需要分辨率大于798宽
